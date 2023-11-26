@@ -1,0 +1,8 @@
+{% extends "modelo.html" %}
+{% block conteudo %}
+      <h1>Glossario com python, flask, html</h1>
+      <p><a href="/glossario">Próxima Página</a></p>
+    {% for termo in glossario %}
+        <h3>{{ termo[0] }}</h3>
+    {% endfor %}
+{% endblock %}
