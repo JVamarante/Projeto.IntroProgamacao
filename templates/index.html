@@ -1,6 +1,13 @@
 {% extends "modelo.html" %}
 {% block conteudo %}
-      <h1>Glossario com python, flask, html</h1>
+      <h1>Glossario com python, flask, html
+        <hr>
+        <p>Equipe:</p> 
+    Marcone Edson de Oliveira silva Neto<br>
+    João Victor Monteiro Amarante <br>
+    Marinaldo Salviano da Silva 
+
+      </h1>
       <p><a href="/glossario">Próxima Página</a></p>
     {% for termo in glossario %}
         <h3>{{ termo[0] }}</h3>
